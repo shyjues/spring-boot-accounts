@@ -7,10 +7,15 @@ This application will list a set of accounts and will also provide the list of t
 ## Details
 
 ### Core Rest API
+
+The root path is http://localhost:8080/v1/
+
+
 Following are the operations possible
 
 1. List the Accounts GET '/'
-2. List the transactions for any account GET '/listTransactions/account_number=?'
+2. List the details of any one account based upon the account number GET '/<Account Number>'
+3. List the transactions for any account GET '/listTransactions/account_number=?'
 
 
 
